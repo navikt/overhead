@@ -1,0 +1,9 @@
+apiVersion: "nais.io/v1alpha1"
+kind: "Application"
+metadata:
+  name: overhead
+  namespace: Overhead
+  labels:
+    team: Overhead
+spec:
+  image: ghcr.io/navikt/imagename:tag
