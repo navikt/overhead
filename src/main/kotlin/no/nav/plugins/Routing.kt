@@ -13,10 +13,17 @@ fun Application.configureRouting() {
             call.respondText("Hello World!")
         }
     }
-    /*routing {
+
+    routing {
         get("/isalive") {
-            call
+            call.respondText("OK", contentType = ContentType.Text.Plain, HttpStatusCode.OK)
         }
-    }*/
+    }
+
+    routing {
+        get("/isready") {
+            call.respondText("OK", contentType = ContentType.Text.Plain, HttpStatusCode.OK)
+        }
+    }
 
 }
