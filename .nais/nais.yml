@@ -6,7 +6,7 @@ metadata:
   labels:
     team: overhead
 spec:
-  image: ghcr.io/navikt/imagename:tag
+  image: ghcr.io/navikt/{{ image }}
   liveness:
     path: /isalive
   readiness:
