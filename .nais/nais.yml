@@ -8,6 +8,6 @@ metadata:
 spec:
   image: {{ image }}
   liveness:
-    path: /isalive
+    path: /overhead/isalive
   readiness:
-    path: /isready
+    path: /overhead/isready
