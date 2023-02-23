@@ -11,3 +11,5 @@ spec:
     path: /isalive
   readiness:
     path: /isready
+  ingresses:
+    - https://overhead.dev.intern.nav.no
