@@ -1,0 +1,95 @@
+{
+  "agressoId": "8552111",
+  "orgNiv": "ORGENHET",
+  "navn": "IT utvikling 11",
+  "gyldigFom": "2020-05-01",
+  "gyldigTom": null,
+  "organiseringer": [
+    {
+      "retning": "over",
+      "organisasjonsenhet": {
+        "agressoId": "855210",
+        "orgNiv": "ORGNIV3",
+        "navn": "IT utvikling",
+        "gyldigFom": null,
+        "gyldigTom": null,
+        "organiseringer": null,
+        "leder": [
+          {
+            "ressurs": {
+              "nomId": null,
+              "navIdent": "S554433",
+              "personIdent": null,
+              "koblinger": null,
+              "lederFor": null,
+              "ledere": null,
+              "person": null,
+              "epost": "dummy-epost@i-dev.S554433",
+              "visningsNavn": "Seksjonsleder Seksjonsledersen",
+              "fornavn": null,
+              "etternavn": null
+            }
+          }
+        ],
+        "koblinger": null,
+        "type": null
+      },
+      "gyldigFom": "2023-02-22",
+      "gyldigTom": null
+    }
+  ],
+  "leder": [
+    {
+      "ressurs": {
+        "nomId": null,
+        "navIdent": "L332211",
+        "personIdent": null,
+        "koblinger": null,
+        "lederFor": null,
+        "ledere": null,
+        "person": null,
+        "epost": "dummy-epost@i-dev.L332211",
+        "visningsNavn": "Leder Ledersen",
+        "fornavn": null,
+        "etternavn": null
+      }
+    }
+  ],
+  "koblinger": [
+    {
+      "ressurs": {
+        "nomId": null,
+        "navIdent": "U123456",
+        "personIdent": null,
+        "koblinger": null,
+        "lederFor": null,
+        "ledere": null,
+        "person": null,
+        "epost": "dummy-epost@i-dev.U123456",
+        "visningsNavn": "Utvikler Utviklersen",
+        "fornavn": null,
+        "etternavn": null
+      },
+      "gyldigFom": null,
+      "gyldigTom": null
+    },
+    {
+      "ressurs": {
+        "nomId": null,
+        "navIdent": "D112233",
+        "personIdent": null,
+        "koblinger": null,
+        "lederFor": null,
+        "ledere": null,
+        "person": null,
+        "epost": "dummy-epost@i-dev.D112233",
+        "visningsNavn": "Developer Developersen",
+        "fornavn": null,
+        "etternavn": null
+      },
+      "gyldigFom": null,
+      "gyldigTom": null
+    }
+  ],
+  "type": null
+}
