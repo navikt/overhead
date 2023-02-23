@@ -5,12 +5,14 @@ import io.ktor.client.call.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.request.*
 import io.ktor.serialization.kotlinx.json.*
+import kotlinx.serialization.json.Json
 
 class TeamKatalogClient {
 
     val client = HttpClient() {
         install(ContentNegotiation) {
-            json()
+            json( Json { ignoreUnknownKeys = true
+                         isLenient = true} )
         }
     }
 

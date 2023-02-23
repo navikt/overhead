@@ -13,7 +13,7 @@ class TeamKatalogClientTest {
 
         val response: OrganisasjonsenhetDto = runBlocking { client.hentMedlemmerIAvdeling("8552108") }
 
-        println("Antall:" + response.koblinger.size)
+        println("Antall:" + response.agressoId)
     }
 
 }
