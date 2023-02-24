@@ -15,8 +15,6 @@ class TeamKatalogClientTest {
     fun hentOrganisasjonsEnhetTest() {
 
         val response: OrganisasjonsenhetDto = runBlocking { client.hentMedlemmerIAvdeling("8552108") }
-
-        println("Antall:" + response.agressoId)
+        println("Antall:" + response.koblinger.size)
     }
-
 }
